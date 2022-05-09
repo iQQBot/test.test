@@ -1,4 +1,3 @@
-FROM alpine:3
+FROM gitpod/workspace-full
 
-LABEL aaaa=aaaa
-RUN apk --no-cache add alpine-sdk bash libstdc++ libc6-compat
+RUN sleep 600
