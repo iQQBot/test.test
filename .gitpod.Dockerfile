@@ -1,3 +1,3 @@
-FROM gitpod/workspace-base
+FROM tianshi8650/workspace-base
 
-RUN ls
+RUN echo test > /test.txt
