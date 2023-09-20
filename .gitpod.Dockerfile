@@ -1,3 +1,3 @@
-FROM gitpod/workspace-base
+FROM 745721252581.dkr.ecr.eu-central-1.amazonaws.com/gitpod/workspace-base
 
 RUN ls
