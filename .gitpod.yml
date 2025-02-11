@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-base:2025-01-27-10-57-00
   
 tasks:
     - name: test
