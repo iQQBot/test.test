@@ -1,5 +1,4 @@
-FROM gitpod/workspace-base
-
+FROM gitpod/workspace-base:2025-01-27-10-57-00
 RUN ls
 
 USER root
