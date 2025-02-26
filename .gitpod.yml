@@ -1,5 +1,16 @@
-image: gitpod/workspace-base:2025-01-20-14-43-19
-  
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+# image: gitpod/workspace-full:2023-03-06-18-43-51
+image:
+  file: Dockerfile
 tasks:
-    - name: test
-      init: "echo test hello > test.txt"
+  - init: |
+      npm install
+      sleep 120
+  - command: |
+      echo "Hellow!"
+github:
+  prebuilds:
+    master: true
+vscode:
+  extensions:
+    - vscodevim.vim
