@@ -1,4 +1,4 @@
-image: gitpod/workspace-base:2025-01-20-14-43-19
+image: gitpod/workspace-base:2025-02-24-10-29-26
   
 tasks:
     - name: test
