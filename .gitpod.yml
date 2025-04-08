@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: 745721252581.dkr.ecr.ap-southeast-1.amazonaws.com/test-workspace:latest
   
 tasks:
     - name: test
