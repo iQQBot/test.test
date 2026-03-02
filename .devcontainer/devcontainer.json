@@ -5,8 +5,8 @@
     "context": "..",
     "args": {
       "USERNAME": "test",
-      "USER_UID": "1002",
-      "USER_GID": "1002"
+      "USER_UID": "1004",
+      "USER_GID": "1004"
     }
   },
   "privileged": true,
