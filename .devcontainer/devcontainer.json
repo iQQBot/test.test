@@ -9,7 +9,9 @@
       "USER_GID": "1002"
     }
   },
-  "remoteUser": "test",
-  "containerUser": "test",
+  "privileged": true,
+  "runArgs": [
+    "--pid=host"
+  ],
   "postCreateCommand": "go version && node --version && npm --version"
 }
