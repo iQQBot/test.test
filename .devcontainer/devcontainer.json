@@ -1,0 +1,15 @@
+{
+  "name": "ubuntu-go-node",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "USERNAME": "test",
+      "USER_UID": "1002",
+      "USER_GID": "1002"
+    }
+  },
+  "remoteUser": "test",
+  "containerUser": "test",
+  "postCreateCommand": "go version && node --version && npm --version"
+}
